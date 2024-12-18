@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+#sidebar{
+  width: 350px;
+  height: 89vh;
+  background-color: #54B4D3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  position: sticky;
+
+  a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+
+    &:hover{
+      background-color: white;
+      color: #000;
+      i{
+        color: #000 !important;
+      }
+  
+    }
+  
+  }
+}
+#wrapper{
+  display: flex;
+}
+
+#insert{
+  margin-left: 350px;
+  margin-top: 70px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(122, 123, 183);
+  padding: 50px;
+  height: 600px;
+  text-align: center;
+  background-color: #54B4D3;
+  color: white;
+  box-shadow: 5px 5px 5px 5px rgb(122, 123, 183);
+  border-radius: 20px;
+   
+  input{
+    width: 400px;
+    height: 70px;
+
+    &::placeholder{
+      text-align: center;
+    }
+
+
+    &:hover{
+      background-color: #273233;
+      color: white;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+
+  button{
+    height: 40px;
+    width: 100px;
+    margin-left: 40%;
+    padding: 10px;
+    background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px  blueviolet;
+    &:hover{
+      background-color: #273233;
+      color: white;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+}
+#cont{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#display{
+  margin-left: 400px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 30px;
+  padding-left: 50px;
+  height: 230px;
+  width: 400px;
+  text-align: center;
+  background-color: #54B4D3;
+  color: white;
+  box-shadow: 5px 5px 5px 5px black;
+  border-radius: 20px;
+  
+  input{
+    width: 300px;
+    height: 40px;
+
+    &::placeholder{
+      text-align: center;
+    }
+
+
+    &:hover{
+      background-color: #273233;
+      color: white;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+
+  button{
+    height: 40px;
+    width: 100px;
+    margin-left: 35%;
+
+    padding: 10px;
+    background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px  blueviolet;
+    &:hover{
+      background-color: #273233;
+      color: white;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+}
+#box{
+  position: fixed;
+  background: url("../Component/th1.jpg");
+  height: 100vh;
+  width: 100vw;
+}
+
+#login{
+  opacity: 0.8;
+  margin-left: 40%;
+  margin-top: 130px;
+  margin-bottom: 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 30px;
+  padding-left: 50px;
+  height: 450px;
+  width: 500px;
+  text-align: center;
+  background-color: #273233;
+  color: white;
+  box-shadow: 5px 5px 5px 5px black;
+  text-align: center;
+
+  input{
+    text-align: center;
+    height: 50px;
+    &:hover{
+      background-color: #273233;
+      color: white;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+
+  button{
+    height: 40px;
+    width: 100px;
+    margin-left: 25%;
+
+    padding: 10px;
+    background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px  blueviolet;
+    &:hover{
+      background-color: #273233;
+      color: white;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+
+  }
+
+  #register{
+    opacity: 0.8;
+    margin-left: 40%;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 30px;
+    padding-left: 50px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    background-color: #273233;
+    color: white;
+    box-shadow: 5px 5px 5px 5px black;
+    text-align: center;
+
+    input{    
+      text-align: center;
+      height: 50px;
+      &:hover{
+        background-color: #273233;
+        color: white;
+        box-shadow: 2px 2px 2px 2px black;
+      }
+    }
+
+    button{
+      height: 40px;
+      width: 100px;
+      margin-left: 40%;
+
+      padding: 10px;
+      background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  blueviolet;
+      &:hover{
+        background-color: #273233;
+        color: white;
+        box-shadow: 2px 2px 2px 2px black;
+      }
+    }
+  }
