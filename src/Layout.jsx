@@ -7,12 +7,14 @@ import Search from "./Pages/Search";
 import Update from "./Pages/Update";
 import Edit from "./Pages/Edit";
 import Register from "./Pages/Register";
+import Login from "./Pages/Login";
 const Layout=()=>{
     return(
         <>
        
        <BrowserRouter>
                 <Routes>
+                    <Route index element={<Login/> }></Route>
                     <Route path="register" element={<Register/>}></Route>
                     <Route path="/" element={<Sidebar/>}>
                     <Route index element={<Home/>}/>

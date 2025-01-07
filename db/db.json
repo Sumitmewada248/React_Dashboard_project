@@ -8,13 +8,6 @@
       "price": "250"
     },
     {
-      "id": "6895",
-      "make": "Suzuki",
-      "model": "Activa",
-      "year": "2023",
-      "price": 945000
-    },
-    {
       "id": "0bc0",
       "make": "Hero",
       "model": "Splender",
@@ -92,6 +85,12 @@
       "id": "e88e",
       "name": "Shivansh",
       "email": "shivansh@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "fa8c",
+      "name": "Sumit mewada",
+      "email": "sumitmewa@gmail.com",
       "password": "1234"
     }
   ]
