@@ -31,6 +31,8 @@ const ans=data.map((item)=>{
             <td onClick={()=>{deldata(item.id)}}><FontAwesomeIcon icon={faTrash} /></td>
         </tr>
     )
+
+    
 })
     useEffect(()=>{
         getdata();
