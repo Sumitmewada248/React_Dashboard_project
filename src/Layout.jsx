@@ -11,7 +11,6 @@ import Login from "./Pages/Login";
 const Layout=()=>{
     return(
         <>
-       
        <BrowserRouter>
                 <Routes>
                     <Route index element={<Login/> }></Route>

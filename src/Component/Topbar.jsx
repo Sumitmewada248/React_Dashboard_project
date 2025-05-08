@@ -5,9 +5,11 @@ const Topbar=()=>{
   const name=localStorage.getItem("name");
     return(
         <>
+
        <Navbar className="bg-info" data-bs-theme="dark" style={{height:"90px"}} >
       <Container fluid style={{display:"flex",marginLeft:"115px"}}>
         <Navbar.Brand to="" > <i class="fa-solid fa-motorcycle" style={{color:"white", paddingRight:"10px" ,fontSize:"30px"}}/> Bike Dashboard</Navbar.Brand>
+       
        
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">

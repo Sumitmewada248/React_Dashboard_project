@@ -4,6 +4,7 @@ import Topbar from "./Topbar";
 const Sidebar = () => {
     return (
         <>
+        
         <Topbar/>
             <div id="wrapper">
                 <div id="sidebar">

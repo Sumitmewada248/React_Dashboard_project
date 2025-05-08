@@ -25,7 +25,7 @@
       "id": "445b",
       "make": "Bajaj",
       "model": "Pulsar",
-      "year": "2022",
+      "year": "2020",
       "price": 950000
     },
     {
@@ -92,6 +92,12 @@
       "name": "Sumit mewada",
       "email": "sumitmewa@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "51c1",
+      "name": "sanjay",
+      "email": "neetes@gmail.com",
+      "password": "2580"
     }
   ]
 }
